@@ -1,0 +1,15 @@
+columns_imbalance:
+  - id: int
+  - label: int
+  - tweet: str
+
+columns_raw:
+  - :int
+  - count: int
+  - hate_speech: int
+  - offensive_language: int
+  - neither: int
+  - class: int
+  - tweet: str
+
+drop_columns: _id
